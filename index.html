@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar cidade</title>
+</head>
+<body>
+    <div id="header">
+        <link rel="stylesheet" href="styles.css">
+        <h1>Selecione cidades a partir de um estado</h1>
+    </div>
+    <div id="content">
+        <form id="frmEstadoCidades">
+            <label for="estado" id="lblEstado">Estado: </label>
+            <select id="estado">
+                <option value="AC">Selecione o estado</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MS">Mato Grosso Do Sul</option> 
+                <option value="SC">Santa Catarina </option> 
+                <option value="AM">Amazonas</option> 
+                <option value="MG">Minas Gerais</option> 
+                <option value="ES">Espirito Santo</option> 
+                <option value="AL">Alagoas</option> 
+                <option value="RR">Roraima</option> 
+            </select>
+            <label for="cidade" id="lblCidade">Cidade: </label>
+            <select id="cidade">
+            </select>
+        </form>
+        <div id="saida"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
